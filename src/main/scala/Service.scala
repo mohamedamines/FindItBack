@@ -1,3 +1,4 @@
+import akka.Done
 import akka.actor.ActorSystem
 import akka.event.LoggingAdapter
 import akka.http.scaladsl.model._
@@ -7,7 +8,8 @@ import akka.stream.ActorMaterializer
 import com.typesafe.config.Config
 import entities.LostObject
 
-import scala.concurrent.ExecutionContextExecutor
+import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
+import scala.concurrent.{ExecutionContextExecutor, Future}
 
 trait Service extends Protocols {
 
@@ -18,22 +20,30 @@ trait Service extends Protocols {
   def config: Config
   val logger: LoggingAdapter
 
-  var lostObjects = Vector.empty[LostObject]
-
-
-  def saveObject(lostObject: LostObject) = lostObjects :+ lostObject
+  // (fake) async database query api
+  def saveObject(lostObject: LostObject): Future[Done] = ???
+  def fetchObject(itemId: Long): Future[Option[LostObject]] = ???
 
   val routes: Route = {
-    pathPrefix("lost-object") {
-      pathEnd {
-
-        path("") {
-          get {
-            complete(HttpEntity(""))
+    post {
+      path("save-object") {
+        entity(as[LostObject]) { lostObject =>
+          val saved: Future[Done] = saveObject(lostObject)
+          onComplete(saved) { _ =>
+            complete("saved object")
           }
+        }
+      }
+    } ~
+    get {
+      pathPrefix("fetch-object" / LongNumber) { id =>
+        val maybeObject: Future[Option[LostObject]] = fetchObject(id)
+
+        onSuccess(maybeObject) {
+          case Some(lostObject)  => complete(lostObject)
+          case None              => complete(StatusCodes.NotFound)
         }
       }
     }
   }
-
 }

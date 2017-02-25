@@ -1,3 +1,5 @@
 clean
 compile
   var questions = Vector.empty[Question]
+compile
+run

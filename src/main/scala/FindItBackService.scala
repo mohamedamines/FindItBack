@@ -1,10 +1,12 @@
 import akka.actor.ActorSystem
 import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
+import akka.http.scaladsl.Http.ServerBinding
 import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
 
-import scala.concurrent.ExecutionContextExecutor
+import scala.concurrent.{ExecutionContextExecutor, Future}
+import scala.io.StdIn
 
 object FindItBackService extends App with Service {
 
@@ -16,5 +18,12 @@ object FindItBackService extends App with Service {
 
   override val logger: LoggingAdapter = Logging(system, getClass)
 
-  Http().bindAndHandle(routes, config.getString("http.interface"), config.getInt("http.port"))
+  val bindingFuture: Future[ServerBinding] = Http().bindAndHandle(routes, config.getString("http.interface"), config.getInt("http.port"))
+
+  println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")
+  StdIn.readLine()
+
+  bindingFuture
+    .flatMap(_.unbind)
+    .onComplete(_ => system.terminate)
 }

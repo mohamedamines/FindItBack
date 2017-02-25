@@ -3,6 +3,6 @@ import spray.json.{DefaultJsonProtocol, RootJsonFormat}
 
 trait Protocols extends DefaultJsonProtocol {
 
-  implicit val lostObjectFormat = jsonFormat3(LostObject.apply)
+  implicit val lostObjectFormat = jsonFormat4(LostObject.apply)
 
 }
