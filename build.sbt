@@ -13,6 +13,7 @@ scalacOptions in Test ++= Seq("-Yrangepos")
 libraryDependencies ++= {
   val akkaVersion = "2.4.17"
   val akkaHttpVersion = "10.0.3"
+  val scalaTestVersion = "3.0.1"
 
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
@@ -21,9 +22,8 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion,
-    "org.specs2" %% "specs2-core" % "3.8.8" % "test"
+    "org.scalatest"     %% "scalatest" % scalaTestVersion % "test"
   )
-
 }
 
 Revolver.settings

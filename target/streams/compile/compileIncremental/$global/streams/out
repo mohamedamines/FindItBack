@@ -1,0 +1,101 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /Users/azerty/IdeaProjects/FindItBack/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0minfo[0m] [0m'compiler-interface' not yet compiled for Scala 2.11.8. Compiling...[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.8  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_f1d65430[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes:/Users/azerty/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/azerty/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.13/xsbti/interface-0.13.13.jar:/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_2964a644/srcs/org.scala-sbt/compiler-interface/compiler-interface-0.13.13-sources.jar:/Users/azerty/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar:/Users/azerty/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/Users/azerty/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/Users/azerty/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/Users/azerty/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/GlobalHelpers.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/f0/k9jbclb917388fck9yz49scm0000gn/T/sbt_a9f71c8a/xsbt/ScaladocInterface.scala[0m
+[0m[[0minfo[0m] [0m  Compilation completed in 10.199 s[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 47d4906c, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	utf8[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes:/Users/azerty/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/azerty/IdeaProjects/FindItBack/target/scala-2.11/classes:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.17.jar:/Users/azerty/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/azerty/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.17.jar:/Users/azerty/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/Users/azerty/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/Users/azerty/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.4.17.jar:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-http_2.11/jars/akka-http_2.11-10.0.3.jar:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-10.0.3.jar:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-10.0.3.jar:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/jars/akka-http-spray-json_2.11-10.0.3.jar:/Users/azerty/.ivy2/cache/io.spray/spray-json_2.11/bundles/spray-json_2.11-1.3.3.jar:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/jars/akka-http-testkit_2.11-10.0.3.jar:/Users/azerty/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/jars/akka-stream-testkit_2.11-2.4.16.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 12.925858214 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /Users/azerty/IdeaProjects/FindItBack/src/main/scala/entities.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, unapply, curried, wait, entities, copy$default$2, $asInstanceOf, productArity, equals, description, asInstanceOf, synchronized, $isInstanceOf, tupled, canEqual, productPrefix, notifyAll, LostObject, isInstanceOf, <init>, apply, ==, clone, $init$, copy$default$3, copy, toString, place, !=, getClass, title, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala: Set(entities, LostObject)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala: Set(entities, LostObject, apply)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	UnitJsonFormat, listFormat, vectorFormat, system, RootJsObjectFormat, BooleanJsonFormat, setFormat, RootJsArrayFormat, JsValueFormat, LongJsonFormat, tuple1Format, indexedSeqFormat, optionFormat, linearSeqFormat, SymbolJsonFormat, tuple5Format, tuple3Format, immLinearSeqFormat, tuple7Format, immSetFormat, lostObjectFormat, eitherFormat, CharJsonFormat, BigDecimalJsonFormat, ShortJsonFormat, tuple6Format, StringJsonFormat, arrayFormat, immIterableFormat, ByteJsonFormat, materializer, tuple2Format, immIndexedSeqFormat, executor, immSeqFormat, tuple4Format, FloatJsonFormat, iterableFormat, IntJsonFormat, DoubleJsonFormat, mapFormat, seqFormat, BigIntJsonFormat.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala by /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala by /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	UnitJsonFormat, listFormat, vectorFormat, RootJsObjectFormat, BooleanJsonFormat, setFormat, RootJsArrayFormat, JsValueFormat, LongJsonFormat, tuple1Format, indexedSeqFormat, optionFormat, linearSeqFormat, SymbolJsonFormat, tuple5Format, tuple3Format, immLinearSeqFormat, tuple7Format, immSetFormat, lostObjectFormat, eitherFormat, CharJsonFormat, BigDecimalJsonFormat, ShortJsonFormat, tuple6Format, StringJsonFormat, arrayFormat, immIterableFormat, ByteJsonFormat, tuple2Format, immIndexedSeqFormat, immSeqFormat, tuple4Format, FloatJsonFormat, iterableFormat, IntJsonFormat, DoubleJsonFormat, mapFormat, seqFormat, BigIntJsonFormat.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Protocols.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala by /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala, /Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	UnitJsonFormat, listFormat, vectorFormat, system, RootJsObjectFormat, BooleanJsonFormat, setFormat, RootJsArrayFormat, JsValueFormat, LongJsonFormat, tuple1Format, indexedSeqFormat, optionFormat, linearSeqFormat, SymbolJsonFormat, tuple5Format, tuple3Format, immLinearSeqFormat, tuple7Format, immSetFormat, lostObjectFormat, eitherFormat, CharJsonFormat, BigDecimalJsonFormat, ShortJsonFormat, tuple6Format, StringJsonFormat, arrayFormat, immIterableFormat, ByteJsonFormat, materializer, tuple2Format, immIndexedSeqFormat, executor, immSeqFormat, tuple4Format, FloatJsonFormat, iterableFormat, IntJsonFormat, DoubleJsonFormat, mapFormat, seqFormat, BigIntJsonFormat.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /Users/azerty/IdeaProjects/FindItBack/src/main/scala/Service.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/Users/azerty/IdeaProjects/FindItBack/src/main/scala/FindItBackService.scala[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
